@@ -1,5 +1,6 @@
 import Banner from '../components/Banner';
 import Collapse from '../components/Collapse';
+import bannerAbout from '../assets/banner-about.png';
 import './About.scss';
 
 const About = () => {
@@ -25,8 +26,8 @@ const About = () => {
   return (
     <main className="about">
       <div className="about-container">
-        <Banner 
-          image="/src/assets/banner-about.png"
+        <Banner
+          image={bannerAbout}
         />
         
         <section className="about-content">

@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Accommodation from './pages/Accommodation';
 import NotFound from './pages/NotFound';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

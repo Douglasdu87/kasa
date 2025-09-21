@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import ChevronLeft from '../assets/icons/ChevronLeft';
+import ChevronRight from '../assets/icons/ChevronRight';
 import './Gallery.scss';
 
 const Gallery = ({ images, title }) => {

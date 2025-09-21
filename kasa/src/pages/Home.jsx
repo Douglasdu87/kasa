@@ -5,7 +5,8 @@ import { useState, useEffect } from 'react'; // Importe les hooks React :
 // Importe le composant Banner (bannière en haut de la page)
 import Banner from '../components/Banner'; // Importe le composant Banner (bannière en haut de la page)
 import Card from '../components/Card'; // Importe le composant Card (affichage d'un logement)
-import accommodationsData from '../../logements.json'; // Importe les données des logements à partir d'un fichier JSON
+import accommodationsData from '../logements.json'; // Importe les données des logements à partir d'un fichier JSON
+import bannerHome from '../assets/banner-home.png'; // Importe l'image de la bannière
 import './Home.scss'; // Importe le fichier de styles SCSS pour la page Home
 
 const Home = () => {
@@ -18,8 +19,8 @@ const Home = () => {
   return (
     <main className="home">
       <div className="home-container">
-        <Banner 
-          image="/src/assets/banner-home.png"
+        <Banner
+          image={bannerHome}
           text="Chez vous, partout et ailleurs"
         />
         

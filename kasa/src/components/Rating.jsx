@@ -1,4 +1,4 @@
-import { Star } from 'lucide-react';
+import Star from '../assets/icons/Star';
 import './Rating.scss';
 
 const Rating = ({ rating, maxRating = 5 }) => {
@@ -23,4 +23,3 @@ const Rating = ({ rating, maxRating = 5 }) => {
 };
 
 export default Rating;
-

@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import kasaLogo from '../assets/kasa-logo.png';
 import './Header.scss';
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <img src="/src/assets/kasa-logo.png" alt="Kasa" className="logo-img" />
+          <img src={kasaLogo} alt="Kasa" className="logo-img" />
         </Link>
         <nav className="nav">
           <Link 

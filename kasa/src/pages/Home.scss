@@ -11,11 +11,15 @@
 
 .accommodations-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: $spacing-xl;
   background: $grey-light;
   border-radius: $border-radius-md;
   padding: $spacing-xl;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   @include mobile {
     grid-template-columns: 1fr;

@@ -4,7 +4,7 @@ import Gallery from '../components/Gallery'; // Importation du composant Gallery
 import Collapse from '../components/Collapse';
 import Rating from '../components/Rating';
 import Tag from '../components/Tag';
-import accommodationsData from '../../logements.json';
+import accommodationsData from '../logements.json';
 import './Accommodation.scss';
 
 // Déclaration du composant fonctionnel Accommodation
