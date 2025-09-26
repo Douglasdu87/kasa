@@ -29,6 +29,7 @@
 .nav {
   display: flex;
   gap: $spacing-xl;
+  color: black;
 
   @include mobile {
     gap: $spacing-sm;
@@ -36,7 +37,7 @@
 
   &-link {
     text-decoration: none;
-    color: $primary-color;
+    color: black;
     font-size: 1.5rem;
     font-weight: 500;
     @include transition(text-decoration);

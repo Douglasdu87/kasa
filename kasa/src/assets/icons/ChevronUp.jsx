@@ -1,7 +1,12 @@
 import React from 'react';
-
+// Définition du composant fonctionnel "ChevronUp".
+// Props :
+// - className : permet d’ajouter des classes CSS personnalisées pour styler le SVG (par défaut vide).
+// - size : définit la largeur et la hauteur du SVG (par défaut 24px).
 const ChevronUp = ({ className = '', size = 24 }) => {
   return (
+    // SVG représentant une icône de flèche orientée vers le haut.
+    // Les props "className" et "size" rendent ce composant réutilisable et personnalisable.
     <svg
       className={className}
       width={size}
